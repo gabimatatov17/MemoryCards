@@ -1,0 +1,67 @@
+/* Gavriel_Matatov_3224040088_Gal_Ternovski_323005512 */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(images/page-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Marker Felt, fantasy;
+    color: white;
+    overflow: scroll;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.card-selection {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="number"], input[type="text"] {
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    background-color: #e0e0e0;
+    outline: none;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+input[type="number"]:focus, input[type="text"]:focus {
+    border-color: #007bff;
+    background-color: #ffffff;
+}
+
+.cards-select-button{
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cards-select-button:hover  {
+    background-color: #0056b3;
+}
+
+.error-message {
+    font-size: 18px;
+}
